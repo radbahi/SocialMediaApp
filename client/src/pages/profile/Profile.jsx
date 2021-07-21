@@ -31,9 +31,10 @@ export default function Profile() {
               </span>
             </div>
           </div>
-          <div className="profileRightBottom">right bottom</div>
-          <Feed />
-          <Rightbar profile />
+          <div className="profileRightBottom">
+            <Feed />
+            <Rightbar profile />
+          </div>
         </div>
       </div>
     </>
